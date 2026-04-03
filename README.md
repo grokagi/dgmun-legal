@@ -36,12 +36,13 @@ $u = (& "$env:ProgramFiles\GitHub CLI\gh.exe" api user -q .login)
   -F "source[path]=/"
 ```
 
-Live site (after a minute or two):
+**Live site (grokagi):**
 
-`https://<your-github-username>.github.io/dgmun-legal/privacy.html`  
-`https://<your-github-username>.github.io/dgmun-legal/terms.html`
+- https://grokagi.github.io/dgmun-legal/
+- https://grokagi.github.io/dgmun-legal/privacy.html
+- https://grokagi.github.io/dgmun-legal/terms.html
 
-Use those `https://` URLs in Patreon’s app form.
+Use the **privacy** and **terms** URLs in Patreon’s developer app form. First deploy may take 1–2 minutes after `Pages` is enabled.
 
 ## Edit
 
