@@ -1,6 +1,8 @@
 # Legal pages (GitHub Pages source)
 
-Static HTML for **Privacy** and **Terms** URLs used on Patreon Developer registration and similar.
+Static HTML for **Privacy**, **Terms**, **EULA**, **Commercial Use**, **AUP**, **Cookies**, **Disclaimer**, and **DMCA**.
+
+Termly **HTML exports** (no Pro hosted URLs) are wrapped by `tools/wrap-termly-legal-html.mjs`. Terms carry a Sky Waker XR **$10,000/year** commercial addendum. Staff drafts live in [`docs/legal/skywaker/`](../legal/skywaker/).
 
 ## One-time: authenticate GitHub CLI
 
