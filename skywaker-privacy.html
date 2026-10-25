@@ -17,7 +17,7 @@
 <body>
   <p><a href="index.html">← Legal</a></p>
   <h1>Sky Waker privacy notice</h1>
-  <p><strong>Last updated:</strong> 17 October 2026</p>
+  <p><strong>Last updated:</strong> 25 October 2026</p>
   <p>Sky Waker XR™ is run by Avidigi Agency LLC. This notice says in plain words what the Sky Waker app keeps about you, who else handles it, how long it stays, and how to download or delete it. Our general <a href="privacy.html">Privacy Policy</a> covers the rest. Where the two differ, this notice applies to Sky Waker.</p>
 
   <h2>What we keep, and why</h2>
@@ -26,10 +26,13 @@
   <p>When you sign in with Patreon, Patreon tells us your name, your email, your Patreon user number and your membership, so we know you are a member. We never see your Patreon password or your card.</p>
 
   <h3>Your age group</h3>
-  <p>The first time you sign in, we ask for your birth month and year (and the day, if you turn 13 or 18 that month). We keep only your age group (13 to 17, or 18 and over) and when you answered, never the date itself. If you are 13 to 17, you also confirm that a parent or guardian has said yes, and we keep when you did.</p>
+  <p>Sky Waker is for people 13 and over. Patreon checks age when someone joins, and Sky Waker does not ask for a birth date. If you are 13 to 17, you need a parent's or guardian's permission.</p>
 
   <h3>Your work</h3>
   <p>Your compositions, settings, characters and clips are kept in your own private folder, for you. Other members can't see them unless you share them.</p>
+
+  <h3>Your own splat scans</h3>
+  <p>If you turn a splat scan of your own into a Tunnel, your browser reads the scan and boils it into a smaller set of points for the Tunnel. The scan itself never leaves your device. That set of points is kept in your browser and in your private folder on Cloudflare R2, so your headset can play it, until you press Remove or delete your account.</p>
 
   <h3>Clips made from your videos</h3>
   <p>When you make a clip, your video comes to our server, which turns it into still frames. The frames go to RunPod, whose GPUs run the depth model that turns them into a 3D point cloud. The model estimates how far away each part of the picture is. It doesn't recognise faces or identify anyone. Large sets of frames pass through a private storage area on GitHub on the way. The finished clip is stored for you on Cloudflare R2.</p>
@@ -48,7 +51,10 @@
   <p>Sky Waker sends anonymous error reports and usage counts to its own servers: which kind of page and device, what went wrong, and how often Enter, Preload and Play were used. They carry no account, name, IP address or browser fingerprint, and are deleted after 30 days. You can turn them off in the lobby under System; that setting is kept in your browser.</p>
 
   <h3>In the headset</h3>
-  <p>Sky Waker uses your hands to control it while you play. Hand positions are used live to run the effects, and are never recorded. A few readings, such as how far a pinch is closed, travel through our server to your own VJ screen and are not stored. Sky Waker doesn't ask your headset for its cameras, and doesn't scan your room.</p>
+  <p>Sky Waker uses your hands to control it while you play. Hand positions are used live to run the effects, and are never recorded. A few readings, such as how far a pinch is closed or which hand move you just made, travel through our server to your own VJ screen and are not stored. Sky Waker doesn't ask your headset for its cameras, and doesn't scan your room.</p>
+  <h3>Webcam Sorcery (a webcam or a phone camera)</h3>
+  <p>If you open the Webcam Sorcery page and turn its camera on, your browser asks for the camera, and the page reads your hands from the picture on your own device. The picture never leaves that device and is never stored. Only a few numbers travel through our server to your own VJ screen: how open each hand is, where it is in the frame, which hand move you made, and the outline of each hand as 21 points, so the show can draw it. They are not stored. The hand tracker runs in your browser from our own server; no outside service sees anything.</p>
+  <p>If you press Record on that page, the recording is made in your browser and saved to your own computer. With My mic on, your microphone opens only while a take records, and its sound goes only into that file. Sky Waker doesn't see or keep anything you record.</p>
 
   <h3>Our Discord</h3>
   <p>If you join the Sky Waker Discord, our help bot, skyguide, reads the posts in the channels it can see and the messages you send it, so questions and problems reach our team and none wait unseen. It keeps a copy of each post (your Discord name and user number, the channel, the time and the words) for 90 days, then deletes it. Before it keeps a post, it blanks anything that looks like an access key or a private link. Its answers come from our own help notes, never from other people's posts. If our team answers your question, the question and the answer may be kept, without your name, to answer the same question next time. It also keeps your Discord user number and which welcome message it sent you, so it never sends one twice. Our team may use an AI assistant to help sort and answer what the bot collects. Discord keeps your posts under its own privacy policy.</p>
@@ -63,7 +69,7 @@
   <ul>
     <li><strong>Patreon</strong>: sign-in and membership. Patreon's own privacy policy covers your membership and payments.</li>
     <li><strong>Fly.io</strong>: runs the Sky Waker server and stores your folder, and runs the Discord help bot and its copy of posts, in the United States.</li>
-    <li><strong>Cloudflare</strong>: stores clips (R2), our nightly backup copies and the status page.</li>
+    <li><strong>Cloudflare</strong>: stores clips and your Tunnels' points (R2), our nightly backup copies and the status page.</li>
     <li><strong>RunPod</strong>: runs the GPUs that make clips from your frames, and keeps each job's details for a short time.</li>
     <li><strong>GitHub</strong>: the private transfer area for large frame sets, and these legal pages.</li>
     <li><strong>Instagram</strong>: only if you press <em>Show the latest posts</em> in the lobby.</li>
